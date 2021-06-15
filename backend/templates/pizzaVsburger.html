@@ -1,0 +1,33 @@
+<html lang="en">
+   <head>
+      <title>Pizza Vs Burger</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <style>
+         .btn-primary {
+            margin: 6px;
+            background: #fff;
+            color: #000;
+            border: 1px solid black;
+         }
+      </style>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/emn178/chartjs-plugin-labels/src/chartjs-plugin-labels.js"></script>
+      <script src="./templates/js/main.js"></script>
+   </head>
+   <body translate="no">
+      <div style="width:50%; display: block; margin: 0px auto; text-align: center;">
+         <h1>Legendary Battle</h1>
+         <br>
+         <canvas id="mycanvas"></canvas>
+         <div class="row">
+         <button class="btn btn-primary col" onclick="myVote('pizza')">
+            Vote Pizza
+         </button>
+         <button class="btn btn-primary col" onclick="myVote('burger')">Vote Burger</button>
+         </div>
+      </div>
+      <script>
+         setUpChart({{ votes }})
+      </script>
+   </body>
+</html>
