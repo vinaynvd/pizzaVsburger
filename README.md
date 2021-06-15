@@ -40,6 +40,10 @@ This project is going to run on the default port 8000. Hit the http://localhost:
 
 ![Pizza vs Burger Polling site](https://cdn-images-1.medium.com/max/800/1*ApnZI5k-Nd2gdJHjNlIEoA.png)
 
+## How I build this project, & all it's details can be found in my medium article. It had more information than this readme file
+
+Here's the link to my [Medium Article](https://medium.com/@vinaynvd72/polling-web-application-with-python-fastapi-websockets-pymongo-html-javascript-832c931eca59) 
+
 
 ### If you found this project useful, please please buy me a Coffee by clicking the below image 🙂
 
